@@ -1,11 +1,12 @@
 package org.acme.kogito
+unit PersonRules;
 
 import org.acme.kogito.model.Person;
 
-rule "Is adult" ruleflow-group "person"
-	when
-    $person: Person(age > 18)
-	then
+rule isAdult
+when
+    $person: /person[ age > 18 ]
+then
     modify($person) {
     	setAdult(true)
     };
