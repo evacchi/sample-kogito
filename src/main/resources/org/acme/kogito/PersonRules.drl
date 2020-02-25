@@ -1,4 +1,4 @@
-package org.acme.kogito
+package org.acme.kogito;
 unit PersonRules;
 
 import org.acme.kogito.model.Person;

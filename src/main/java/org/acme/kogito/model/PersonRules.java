@@ -1,4 +1,4 @@
-package org.acme.kogito;
+package org.acme.kogito.model;
 
 import org.acme.kogito.model.Person;
 import org.kie.kogito.rules.DataSource;
